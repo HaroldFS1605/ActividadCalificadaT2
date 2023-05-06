@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ActividadCalificadaT2
-{
+namespace ActividadCalificadaT2 
+{ // Esta estructura Medicamentos almacena las variables de la aplicación
    public struct Medicamento
    {
         public string p_codigo;
