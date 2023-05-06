@@ -8,16 +8,16 @@ namespace ActividadCalificadaT2
 {
     public class GestionMedicamento
     {
-        private Medicamento[] arreglo;
-        private int indice;
+        private Medicamento[] arreglo; //SE DEFINE EL ARREGLO
+        private int indice; //CREACION DE LA VARIABLE INDICE
 
-        public GestionMedicamento()
+        public GestionMedicamento() //CONSTRUCTOR DE LA CLASE GestionMedicamento
         {
-            arreglo = new Medicamento[1000];
+            arreglo = new Medicamento[1000];//inicializar y crear el arreglo
             indice = 0;
         }
 
-        public void Registrar(Medicamento obj)
+        public void Registrar(Medicamento obj) //
         {
             if (indice < arreglo.Length)
             {
@@ -26,7 +26,7 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public void Ordenar()
+        public void Ordenar() //metodo burbuja
         {
             for (int i = 0; i<indice;i++)
             {
@@ -42,7 +42,7 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public int Buscar(string nome)
+        public int Buscar(string nome) //
         {
             int pos = 0;
             bool bandera = false;
@@ -65,7 +65,7 @@ namespace ActividadCalificadaT2
                 return pos;
             }
         }
-        public int BuscarPorCodigo(string nome)
+        public int BuscarPorCodigo(string nome) //
         {
             int pos = 0;
             bool bandera = false;
@@ -89,9 +89,9 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public void Eliminar(string code)
+        public void Eliminar(string code) //
         {
-            int pos = BuscarPorCodigo(code);
+            int pos = BuscarPorCodigo(code); //
 
             if (pos !=-1)
             {
@@ -103,12 +103,12 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public int getIndice()
+        public int getIndice() //retornar
         {
             return indice;
         }
 
-        public Medicamento Obtener(int i)
+        public Medicamento Obtener(int i) //obtiene
         {
             return arreglo[i];
         }

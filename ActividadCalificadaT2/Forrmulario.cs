@@ -12,14 +12,14 @@ namespace ActividadCalificadaT2
 {
     public partial class Forrmulario : Form
     {
-        private GestionMedicamento gestMed;
+        private GestionMedicamento gestMed; //definiendo 
         public Forrmulario()
         {
             InitializeComponent();
-            gestMed = new GestionMedicamento();
+            gestMed = new GestionMedicamento(); //creando e instanciando
         }
 
-        public bool ValidarCampos()
+        public bool ValidarCampos() //
         {
             if (txtCodigo.Text.Trim().Length == 0)
             {
@@ -45,7 +45,7 @@ namespace ActividadCalificadaT2
             return true;
         }
 
-        public void LimpiarCasillas()
+        public void LimpiarCasillas() //limpia elelmentos 
         {
             txtCodigo.Text = "";
             txtNombre.Text = "";
@@ -53,7 +53,7 @@ namespace ActividadCalificadaT2
             txtPrecioUnitario.Text = "";
         }
 
-        public void ListarTodos()
+        public void ListarTodos() //lista ...data gridview
         {
             GridTable.Rows.Clear();
             for (int i = 0; i<gestMed.getIndice();i++)
@@ -65,7 +65,7 @@ namespace ActividadCalificadaT2
 
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
+        private void btnAgregar_Click(object sender, EventArgs e) //
         {
             if (ValidarCampos() == false)
             {
@@ -90,13 +90,13 @@ namespace ActividadCalificadaT2
             }
         }
 
-        private void btnOrdenar_Click(object sender, EventArgs e)
+        private void btnOrdenar_Click(object sender, EventArgs e) //
         {
             gestMed.Ordenar();
             ListarTodos();
         }
 
-        private void btnBuscar_Click(object sender, EventArgs e)
+        private void btnBuscar_Click(object sender, EventArgs e) //
         {
             string nome = txtNombre.Text.Trim();
 
@@ -127,7 +127,7 @@ namespace ActividadCalificadaT2
             }
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
+        private void btnEliminar_Click(object sender, EventArgs e) //
         {
             string cod = txtCodigo.Text.Trim();
 
@@ -137,7 +137,7 @@ namespace ActividadCalificadaT2
             }
             else
             {
-                int pos = gestMed.Buscar(cod);
+                int pos = gestMed.BuscarPorCodigo(cod);
 
                 if (pos != -1)
                 {
@@ -151,5 +151,7 @@ namespace ActividadCalificadaT2
                 }
             }
         }
+
+       
     }
 }
