@@ -1,0 +1,22 @@
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\bin\Debug\ActividadCalificadaT2.exe.config
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\bin\Debug\ActividadCalificadaT2.exe
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\bin\Debug\ActividadCalificadaT2.pdb
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.AssemblyReference.cache
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.Forrmulario.resources
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.Properties.Resources.resources
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.GenerateResource.cache
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.CoreCompileInputs.cache
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.exe
+C:\Users\Computer\Desktop\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.pdb
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\bin\Debug\ActividadCalificadaT2.exe.config
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\bin\Debug\ActividadCalificadaT2.exe
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\bin\Debug\ActividadCalificadaT2.pdb
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.AssemblyReference.cache
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.SuggestedBindingRedirects.cache
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.Forrmulario.resources
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.Properties.Resources.resources
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.GenerateResource.cache
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.csproj.CoreCompileInputs.cache
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.exe
+C:\Users\hafer\OneDrive\Documents\FUNDAMENTOS DE PROGRAMACION T2\ActividadCalificadaT2\ActividadCalificadaT2\obj\Debug\ActividadCalificadaT2.pdb
