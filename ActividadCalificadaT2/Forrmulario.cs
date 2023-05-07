@@ -12,14 +12,14 @@ namespace ActividadCalificadaT2
 {
     public partial class Forrmulario : Form
     {
-        private GestionMedicamento gestMed; //definiendo 
+        private GestionMedicamento gestMed; //Definimos la clase GestionMedicamento.
         public Forrmulario()
         {
             InitializeComponent();
-            gestMed = new GestionMedicamento(); //creando e instanciando
+            gestMed = new GestionMedicamento(); //creando e instanciando la clase GestionMedicamento.
         }
 
-        public bool ValidarCampos() //
+        public bool ValidarCampos() //Valida que los campos no estén vacíos. Valida que los textos (imputs) tengan un valor y no se encuentren vacios
         {
             if (txtCodigo.Text.Trim().Length == 0)
             {
@@ -45,7 +45,7 @@ namespace ActividadCalificadaT2
             return true;
         }
 
-        public void LimpiarCasillas() //limpia elelmentos 
+        public void LimpiarCasillas() //limpia los elementos de la casilla de textos
         {
             txtCodigo.Text = "";
             txtNombre.Text = "";
@@ -53,7 +53,7 @@ namespace ActividadCalificadaT2
             txtPrecioUnitario.Text = "";
         }
 
-        public void ListarTodos() //lista ...data gridview
+        public void ListarTodos() //lista los datos de la estructura Medicamento y lo muestra en un DataGridView 
         {
             GridTable.Rows.Clear();
             for (int i = 0; i<gestMed.getIndice();i++)
@@ -65,7 +65,8 @@ namespace ActividadCalificadaT2
 
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e) //
+        private void btnAgregar_Click(object sender, EventArgs e) //Este método valida que los campos tengan informacion; recupera los valorees de txt y almacena en estructura medicamentos, 
+            //después busca si el código no existe; si el código no existe lo almacena en el metodo de registrar de la clase GestionMedicamento y muestra la información; caso contrario lanza un mensaje que el código ya se encuentra registrado.
         {
             if (ValidarCampos() == false)
             {
@@ -90,13 +91,13 @@ namespace ActividadCalificadaT2
             }
         }
 
-        private void btnOrdenar_Click(object sender, EventArgs e) //
+        private void btnOrdenar_Click(object sender, EventArgs e) // Ordena los elementos llamando al metodo Ordenar de la clase GestionMedicamento, y después lista todos los elementos
         {
             gestMed.Ordenar();
             ListarTodos();
         }
 
-        private void btnBuscar_Click(object sender, EventArgs e) //
+        private void btnBuscar_Click(object sender, EventArgs e) //Busca el medicamento por el nombre, valida que el nombre tenga información. Llama al metodo Buscar de la clase Gestion medicamentos y en base a su posicion muestra la informacion. 
         {
             string nome = txtNombre.Text.Trim();
 
@@ -127,7 +128,7 @@ namespace ActividadCalificadaT2
             }
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e) //
+        private void btnEliminar_Click(object sender, EventArgs e) //Obtiene el código del medicamento, evalúa que el codigo tenga informacion.
         {
             string cod = txtCodigo.Text.Trim();
 

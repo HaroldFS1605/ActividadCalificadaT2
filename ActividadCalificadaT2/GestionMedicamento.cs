@@ -17,7 +17,7 @@ namespace ActividadCalificadaT2
             indice = 0;
         }
 
-        public void Registrar(Medicamento obj) //
+        public void Registrar(Medicamento obj) //Almacenamos la estructura medicamento al arreglo
         {
             if (indice < arreglo.Length)
             {
@@ -26,7 +26,7 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public void Ordenar() //metodo burbuja
+        public void Ordenar() //Se aplica el método burbuja para comparar el nombre de la estructura medicamento y ordenando en forma ascendente  
         {
             for (int i = 0; i<indice;i++)
             {
@@ -42,7 +42,7 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public int Buscar(string nome) //
+        public int Buscar(string nome) //Busca en base al nombre del medicamento aplicando la búsqueda secuencial
         {
             int pos = 0;
             bool bandera = false;
@@ -65,7 +65,7 @@ namespace ActividadCalificadaT2
                 return pos;
             }
         }
-        public int BuscarPorCodigo(string nome) //
+        public int BuscarPorCodigo(string nome) //Aplica la búsqueda secuencial usando el código
         {
             int pos = 0;
             bool bandera = false;
@@ -89,9 +89,9 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public void Eliminar(string code) //
+        public void Eliminar(string code) //Este método elimina un elemento del arreglo, pero antes busca el elemento por código. Decrementa el índice
         {
-            int pos = BuscarPorCodigo(code); //
+            int pos = BuscarPorCodigo(code);
 
             if (pos !=-1)
             {
@@ -103,12 +103,12 @@ namespace ActividadCalificadaT2
             }
         }
 
-        public int getIndice() //retornar
+        public int getIndice() //retornar la cantidad de elementos que tiene el arreglo
         {
             return indice;
         }
 
-        public Medicamento Obtener(int i) //obtiene
+        public Medicamento Obtener(int i) //obtiene el elemento del arreglo en base a su posición.
         {
             return arreglo[i];
         }
